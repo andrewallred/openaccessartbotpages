@@ -23,40 +23,41 @@
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Fixed navbar</a>
+        <a class="navbar-brand" href="#">Open Access Art Bot</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
+        </button>        
       </nav>
     </header>
 
     <!-- Begin page content -->
     <main role="main" class="container">
-      <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-      <p>Back to <a href="../sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+      <div class="media spaced">
+        <img src="images/icon.png" class="align-self-start mr-3" style="width:250px; height:250px;">
+        <div class="media-body">
+          <h1 class="mt-5">Open Access Art Bot</h1>
+          <p>Open Access Art Bot brings the world's <a href="https://en.wikipedia.org/wiki/Open_access">Open Access</a> art to your Slack workspace.</p>
+          <p>With works ranging from 5000 B.C. to (almost) the present day, you'll find inspiration, amusement, and be reminded of the power of art across time and culture.</p>
+          <p><a href="https://slack.com/oauth/v2/authorize?client_id=587411745031.1091076817463&scope=chat:write,chat:write.customize,commands,channels:join"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a></p>
+        </div>
+      </div>
+      <div class="spaced">
+        <h2>How to use</h2>
+        <p>Use the <code>/oa</code> command in Slack to search for and share artworks, for example <code>/oa van gogh</code>, and shuffle to select the work of your choice.</p>
+
+        <div class="row">
+          <img src="images/use1.png" style="width:443px;height:525px; padding-right:10px;" />
+          <img src="images/use2-edit.png" style="width:443px;height:525px; padding-right:10px;" />
+        </div>
+      </div>
+
+      <div class="spaced"></div>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <span class="text-muted footer-item"><a href="privacy-policy.html">Privacy Policy</a></span>
+        <span class="text-muted footer-item"><a href="help.html">Help</a></span>
       </div>
     </footer>
 

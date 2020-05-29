@@ -35,3 +35,11 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+.spaced {
+  padding-top: 40px;
+}
+
+.footer-item {
+  margin-right: 15px;
+}
