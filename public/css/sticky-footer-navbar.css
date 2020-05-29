@@ -40,6 +40,10 @@ code {
   padding-top: 40px;
 }
 
+.spaced-small {
+  padding-top: 10px;
+}
+
 .footer-item {
   margin-right: 15px;
 }
