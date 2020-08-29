@@ -2,3 +2,45 @@
     position: absolute; 
     right: 0px;
 }
+
+.example-image {
+    padding-top: 10px;
+    padding-left: 10px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.icon {
+    max-width:250px;
+}
+
+/* for width 576px and larger: */
+@media only screen and (min-width: 576px) {
+   
+}
+
+/* for width 768px and larger: */
+@media only screen and (min-width: 768px) {
+    .icon {
+        max-width:200px;
+    }
+}
+
+/* for width 992px and larger: */
+@media only screen and (min-width: 992px) {
+    .example-image {
+        padding-top: 10px;
+        padding-left: 10px;
+        max-width:450px;
+    }
+    .icon {
+        max-width:200px;
+    }
+}
+
+/* for width 1200px and larger: */
+@media only screen and (min-width: 1200px) {
+    .icon {
+        max-width:250px;
+    }  
+}
