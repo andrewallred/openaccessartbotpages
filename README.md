@@ -6,4 +6,4 @@ https://www.openaccessartbot.com
 
 ## Built with
 
-OpenAccessArtBot.com is built using Node, Express, and Parcel.
+OpenAccessArtBot.com is built using Node and Express.
